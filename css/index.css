@@ -42,8 +42,6 @@
 }
 
 .step__top-text {
-  letter-spacing: 1rem;
-  text-indent: 0.7rem;
   animation-name: top;
 }
 
@@ -51,10 +49,10 @@
   animation-name: bottom;
 }
 
-/* delay the animation of horizontal steps */
-.step:nth-child(even) .step__top-text,
-.step:nth-child(even) .step__bottom-text {
-  animation-delay: calc(var(--animation-duration) / 2);
+.step--vertical .step__top-text,
+.step--horizontal .step__bottom-text {
+  letter-spacing: 1rem;
+  text-indent: 0.7rem;
 }
 
 /* ==============================
