@@ -49,6 +49,7 @@
   animation-name: bottom;
 }
 
+/* modifiers */
 .step--vertical .step__top-text,
 .step--horizontal .step__bottom-text {
   letter-spacing: 1rem;
