@@ -1,0 +1,21 @@
+html {
+  background-color: var(--backgroung-color);
+  color: var(--foreground-color);
+}
+
+/* occupies entire viewport */
+.wrapper {
+  min-width: 100%;
+  min-height: 100dvh;
+  display: flex;
+}
+
+/* center content and set perspective */
+.container {
+  min-width: 660px;
+  min-height: 450px;
+  margin: auto;
+  position: relative;
+  perspective: 100rem;
+  perspective-origin: -100% -100%;
+}

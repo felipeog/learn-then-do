@@ -1,0 +1,20 @@
+:root {
+  /* light theme */
+  --backgroung-color: #f3f1e7;
+  --foreground-color: #000000;
+
+  /* steps */
+  --step-width: 20rem;
+  --step-height: 4rem;
+
+  /* animation */
+  --animation-duration: 5s;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* dark theme */
+    --backgroung-color: #000000;
+    --foreground-color: #f3f1e7;
+  }
+}
