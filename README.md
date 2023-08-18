@@ -1,6 +1,6 @@
 # Learn then do
 
-Reproducing [Learn then do](https://pin.it/3XidZrL) by Dos Cocos Locos' with HTML and CSS.
+Reproducing [Learn then do](https://pin.it/3XidZrL) by Dos Cocos Locos with HTML and CSS.
 
 ## Preview
 
